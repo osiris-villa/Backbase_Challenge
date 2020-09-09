@@ -19,9 +19,17 @@ This will run our entire suite of tests and will generate a report for our execu
 
 ### Report
 
--   An series of advance reports in html format can be found in Backbase > target > cucumber-reports > advanced-reports > cucumber-html-reports:
+-   A series of advance reports in html format can be found in Backbase > target > cucumber-reports > advanced-reports > cucumber-html-reports:
 (You will need to refresh you project to be able the updated reports of the execution)
 
 This is an awesome way to visualize all of our execution results, we can even have screenshots if a test fail (we can due that by setting 2 lines of code)
 
 https://www.dropbox.com/s/g9okwif2xj2mm0y/report.jpg?dl=0
+
+
+### Project Structure
+-  The project is using the Page Object Model design pattern. I am creating a class for each of the pages that I'm testing so we can have a beter mantiance of the code.
+- I'm using the TestNG library for assertions 
+- I also used a BDD approach with Cucumber, this offer better readability on the test cases for people that is not than involved with coding
+- Maven is used for managing all the dependencies
+- This porject can run on Chrome, FireFox and IE, you just need to change the parameter "browser" in the global.properties file
