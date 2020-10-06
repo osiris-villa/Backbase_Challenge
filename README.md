@@ -1,4 +1,4 @@
-# Backbase Challenge - QA Engineer
+
 
 ## Execution Strategy
 ### Pre - requisites
